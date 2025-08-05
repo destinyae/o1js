@@ -122,7 +122,7 @@ help with this.
 
 Nix has a garbage collector that **is not used by default** after every run.
 Instead, artifacts get accumulated in your disk unless configured otherwise.
-This is why we recomend `auto-optimise-store = true` (you will be prompted to
+This is why we recommend `auto-optimise-store = true` (you will be prompted to
 accept this). You can also run `nix-store --optimize` retroactively.
 
 If you still need to free up space you can run `nix-store --gc`, unfortunately
